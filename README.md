@@ -57,6 +57,7 @@ usage:
 AI-powered interactive chat shell
 
 options:
+
   -h, --help            show this help message and exit
 
   --model MODEL         AI model to use (default: @cf/meta/llama-3.1-8b-instruct)
