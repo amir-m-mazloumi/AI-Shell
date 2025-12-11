@@ -50,19 +50,27 @@ Program help:
 
 Available modes:
 
-usage: ai [-h] [--model MODEL] [--use-hf] [--r [R]] [--s [S]] [--c] [--t [T]]
+usage:
+
+     ai [-h] [--model MODEL] [--use-hf] [--r [R]] [--s [S]] [--c] [--t [T]]
 
 AI-powered interactive chat shell
 
 options:
   -h, --help            show this help message and exit
+
   --model MODEL         AI model to use (default: @cf/meta/llama-3.1-8b-instruct)
+
   --use-hf              Use HuggingFace instead of Cloudflare (default: False)
+
   --r, --run [R]        Run mode: provide prompt as arg or input (default: None)
+
   --s, --script [S]     Script mode: save output as script (default: None)
+
   --c, --chat           Chat mode: interactive shell (default: False)
+
   --t, --troubleshoot [T]
                         Troubleshoot mode: provide issue as arg or input (default: None)
 
-
-you can use any MODEL you want ,provide in Cloudflare and HuggingFace.
+NOTE:
+    you can use any MODEL you want ,provide in Cloudflare and HuggingFace.
